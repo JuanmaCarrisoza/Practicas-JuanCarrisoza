@@ -1,0 +1,25 @@
+/*DOCUMENTO CSS*/
+
+*{ margin: 0px;
+    padding:  0px;}
+
+body {font-family: "Open Sans", sans-serif;}
+
+h1 { font-family: "Big Shoulders Inline", sans-seri;
+text-align: center;}
+    
+    .cabecera {margin: 32px; }
+
+    .tablas {margin-bottom: 32px;
+        min-height: 1px;
+        padding: 16px 0px 16px 0px;
+        background-color: rgb(252, 255, 215);}
+
+        div.tablas {background-color: blanchedalmond;
+        margin-bottom: 300px;}
+
+        .tablas table {margin: auto;}
+
+
+        .pie {background-color: rgb(252, 255, 215);
+            text-align: center;}
