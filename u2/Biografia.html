@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biografía de Erick Aragón - Líder de Grupo Codiciado</title>
+  <link rel="stylesheet" href="Biografia.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="foto-perfil">
+        <img src="https://lamejor.gremradio.com.mx/wp-content/uploads/2021/10/Erick-Aragon01.jpg" alt="Erick Aragón" />
+      </div>
+      <div class="informacion">
+        <h1>Erick Aragón</h1>
+        <p>Líder de Grupo Codiciado</p>
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+    <section class="biografia">
+      <h2>Biografía</h2>
+      <p>Erick Aragón es un músico y líder de **Grupo Codiciado**, uno de los grupos más influyentes dentro del género de música regional mexicana. Con una carrera marcada por el talento y la dedicación, Erick ha logrado consolidar a su banda como uno de los nombres más reconocidos en la industria musical.</p>
+      <p>A lo largo de su carrera, ha llevado su música a diversos escenarios internacionales y ha conquistado corazones con su estilo único y su impresionante voz. La pasión de Erick por la música lo ha llevado a escribir y producir canciones que se han convertido en himnos para miles de personas.</p>
+    </section>
+
+
+    <section class="video">
+      <h2>Video</h2>
+      <p>A continuación, puedes ver una presentación en vivo de Erick Aragón con Grupo Codiciado interpretando "Gente de Accionar":</p>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1OdYBgEJKyI" title="Gente de Accionar | Codiciado (Erick Aragón) en vivo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
+   
+
+
+    <section class="foto">
+      <h2>Fotografía</h2>
+      <p>Una de las fotos más icónicas de Erick Aragón durante una de sus presentaciones en vivo:</p>
+      <img src="https://elcomercio.pe/resizer/v2/ALXNZP4ZU5H4XFVXYQ5DEZY4TY.jpg?auth=b4fc501bc54d06a969cc13d0002ac137012319e45748662e98de0555abb7adac&width=1200&height=810&quality=90&smart=true" alt="Erick Aragón en concierto" />
+    </section>
+
+
+    <!-- Lista de Reproducción de Audios -->
+    <section class="playlist">
+      <h2>Lista de Reproducción</h2>
+      <p>Aquí puedes escuchar algunos de los mejores temas de **Grupo Codiciado**, liderado por Erick Aragón:</p>
+
+
+      <div class="audio-player">
+        <audio id="audio-player" controls>
+          <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+        </audio>
+      </div>
+      <div class="audio-player">
+        <audio id="audio-player" controls>
+          <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+        </audio>
+      </div>
+      <div class="audio-player">
+        <audio id="audio-player" controls>
+          <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+        </audio>
+      </div>
+     
+    </section>
+  </main>
+
+
+  <footer>
+    <p>&copy; 2025 Biografía de Erick Aragón | Todos los derechos reservados</p>
+  </footer>
+
+
+  <script>
+    function playAudio(audioUrl) {
+      var audioPlayer = document.getElementById("audio-player");
+      audioPlayer.src = audioUrl;
+      audioPlayer.play();
+    }
+  </script>
+</body>
+</html>

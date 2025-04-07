@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+ 
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+ 
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+ 
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  .foto-perfil img {
+    width: 150px;
+    height: 150px;
+   
+  }
+ 
+  .informacion h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+ 
+  .informacion p {
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+ 
+  main {
+    padding: 20px;
+  }
+ 
+  h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+  }
+ 
+  .biografia p, .video p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+ 
+  .video iframe {
+    max-width: 100%;
+    height: auto;
+  }
+ 
+  .foto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+ 
+  .playlist {
+    margin-top: 30px;
+  }
+ 
+  .audio-player {
+    margin-bottom: 15px;
+  }
+ 
+  .audio-list {
+    list-style: none;
+    padding: 0;
+  }
+ 
+  .audio-list li {
+    margin-bottom: 15px;
+  }
+ 
+  .audio-list button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    width: 100%;
+    text-align: left;
+  }
+ 
+  .audio-list  {
+    background-color: #45a049;
+  }
+ 
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+  }
+ 
+  footer p {
+    font-size: 1em;
+  }
